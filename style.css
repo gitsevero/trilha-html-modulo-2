@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    max-height: 100%;
+    text-decoration: none;
+}
+
+
+.wrapper {
+  
+    display: flex;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 100vh;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu li{
+    margin-top: 25px;
+}
+.header {
+    display: flex;
+    background-color: rgb(5, 108, 108);
+    height: 35%; 
+    background-image: url(/assets/R.jpg);
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.headertime{
+    display: flex;
+    background-color: rgb(5, 108, 108);
+    height: 35%; 
+    background-image: url(/assets/OIP.jpg);
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+ .headerabout{
+   display: flex;
+    background-color: rgb(5, 108, 108);
+    height: 35%; 
+    background-image: url(/assets/about.jpg);
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.headercontato{
+    display: flex;
+    background-color: rgb(5, 108, 108);
+    height: 35%; 
+    background-image: url(/assets/R\ \(2\).jpg);
+    
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+
+.content {
+    background-color: white;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    height: 20%;
+   
+}
